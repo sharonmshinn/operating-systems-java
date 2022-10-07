@@ -1,0 +1,17 @@
+    function getBaseChars($word, $language) {
+        $api_info = curl_init("https://wpapi.telugupuzzles.com/api/getBaseChars.php?string={$word}&language={$language}");
+        curl_setopt($api_info, CURLOPT_RETURNTRANSFER, true);
+        $response = curl_exec($api_info);
+        $encoding = mb_detect_encoding($response);
+        if($encoding == "UTF-8") {
+            if($language == "English") {
+                $response = preg_replace('/[^(\x20-\x7F)]*/','', $response);
+            } else {
+                $response = preg_replace('/[^(\x20-\x7F)]*/','', $response, 1);
+            }
+        }
+        curl_close($api_info);
+        $data = json_decode($response, true);
+
+        echo json_encode($data["data"]);
+    }

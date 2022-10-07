@@ -1,0 +1,20 @@
+Sharon Shin
+ICS-462 
+Assignment #3
+September 8th, 2022
+
+Again, the consumer is very dependendant on the Producer. If the consumer gets lucky and the producer quickly
+adds its loop values into the shared buffer, the consumer will wait less and be able to run the program quickly.
+Because we don't see how often the Producer is waiting, we can't see the producer waiting if it adds the values
+to the shared buffer quicker than the consumer can grab them. If the consumer is too quick or the producer is 
+too quick, the program will take longer to perform. The sweet spot is if the producer adds the value
+to the shared buffer quickly, and the consumer grabs the value right after or soon after without too much
+wait. This will result in a quick run.
+
+This assignment has taught me more about waiting in multi-threaded programming. This is not the most 
+efficient way to do it, but it works and avoids the problem we ran into in the second programming 
+assignment, which is that without locking or waiting, our output will be completely different 
+each time. This time, we implemented waiting, which doesn't create an efficient program, but solves
+the issue of getting consistent output results. 
+
+This assignment took me about three hours total to code, test, and document.

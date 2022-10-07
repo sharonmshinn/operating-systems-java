@@ -1,0 +1,11 @@
+Sharon Shin
+ICS-462 
+Assignment #4
+September 13th, 2022
+
+This assignment has taught me about how to calculate page number and offset for a given address with certain restrictions. 
+Memory size is equal to KB, which is 1024, times the number of KBs. In order to find page, you would calculate the address 
+divided by the memory size. In order to find the offset, you would do address modulo memory size, which would give a remainder. 
+This assignment was fairly straight-forward, so not much time was spent for this assignment. 
+
+This assignment took about an hour and a half to code, test, and document. 

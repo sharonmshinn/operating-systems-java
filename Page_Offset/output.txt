@@ -1,0 +1,16 @@
+Sharon Shin
+Asssignment #4
+September 13th, 2022
+
+The address 19986 is in:
+	Page Number = 4
+	Offset = 3602
+
+The address 347892 is in:
+	Page Number = 84
+	Offset = 3828
+
+The address 5978 is in:
+	Page Number = 1
+	Offset = 1882
+

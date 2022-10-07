@@ -1,0 +1,38 @@
+        <div id="help_modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <pre>
+<span style="font-size: 200%; ">How To Play</span>
+You can choose to play in English or Telugu.
+Set the WORDLE word length with the <img src="images/setting.png" alt="settings" style="width:20px;height:20px;vertical-align:middle;"> button.
+Each guess must input a valid word with the correct length.
+Hit the enter or click "Submit" button to submit.
+After each guess, the color of the tiles will change to show how close your guess was to the actual word.
+
+                </pre>
+                <h4><span style="font-size: 144%; ">English:</span></h4>
+                <div>
+                    <div><img src="images/g1.png" alt="green1" style="width:300px;height:50px;vertical-align:middle;"></div>
+                    <span>The letter 'g' is in the word and in the correct spot.<span></div>
+                <br><div>
+                <div><img src="images/iy.png" alt="yellow" style="width:300px;height:50px;vertical-align:middle;"></div>
+                    <span>The letter 'i' is in the word but in the wrong spot.</span></div>
+                <br><div>
+                <div><img src="images/glayu1.png" alt="glayu" style="width:300px;height:50px;vertical-align:middle;"></div>
+                    <span>The letter 'u' is not in the word in any spot.</span></div>
+                <br><div>
+                    <div><img src="images/allgreen.png" alt="allGreen" style="width:300px;height:50px;vertical-align:middle;"></div>
+                    <span>All green letters means You Win!</span></div>
+                <p></p>
+                <h4><span style="font-size: 144%; ">Telugu:</span></h4>
+                <span>Exact Match Logic asame English, and more Base Match Logic's color:</span>
+                <br><div>
+                    <div><img src="images/blue.png" alt="blue" style="width:300px;height:50px;vertical-align:middle;"></div>
+                    <span>The letter 'డ' is Base Match in the word, and in the correct spot.</span></div>
+                <br><div>
+                    <div><img src="images/pink.png" alt="pink" style="width:300px;height:50px;vertical-align:middle;"></div>
+                    <span>The letter 'న్న' is Base Match in the word, but in the wrong spot.</span></div>
+                <br><br><span>A new WORDLE will be available each day! </span>
+                <p></p>
+            </div>
+        </div>

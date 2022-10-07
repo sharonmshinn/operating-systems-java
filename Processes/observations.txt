@@ -1,0 +1,16 @@
+Sharon Shin
+ICS-462 
+Assignment #2
+August 24, 2022
+
+The consumer's sum is very dependent on the amount of seconds the producer has to wait. 
+If the producer ends up waiting more and the consumer ends up waiting less, the sum will
+be much larger than if the producer waits less than the consumer because the global 
+variable is originally set to 100. 
+
+This assignment has taught me that based on this approach, we cannot assume that the 
+output will be similar, and if we want to produce the same results using random 
+number generator and threads, we would most likely have to use some sort of wait
+function.
+
+This assignment took me roughly an hour to code, test, and properly document.
